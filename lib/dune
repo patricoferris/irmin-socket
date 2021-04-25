@@ -1,0 +1,6 @@
+(library
+ (name irmin_socket)
+ (public_name irmin-socket)
+ (libraries brr irmin yojson)
+ (preprocess
+  (pps ppx_yojson_conv)))

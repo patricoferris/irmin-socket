@@ -1,0 +1,12 @@
+(lang dune 2.8)
+(name irmin-socket)
+(generate_opam_files true)
+(source (github patricoferris/irmin-socket))
+(license ISC)
+(authors "Patrick Ferris")
+(maintainers "pf341@patricoferris.com")
+(package
+ (name irmin-socket)
+ (synopsis "A very thin wrapper around Irmin contents and Brr's websockets")
+ (description "A small library to implement collaborative web applications")
+ (depends (yojson (>= 1.7.0)) (ppx_yojson_conv (>= v0.14.0)) irmin brr))

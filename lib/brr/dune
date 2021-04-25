@@ -1,0 +1,4 @@
+(library
+ (name irmin_socket_brr)
+ (public_name irmin-socket.brr)
+ (libraries irmin-socket brr))

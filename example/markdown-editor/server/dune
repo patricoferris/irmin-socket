@@ -1,0 +1,9 @@
+(executable
+ (name server)
+ (libraries dream irmin-unix markdown))
+
+(rule
+ (targets html.ml)
+ (deps html.eml.ml)
+ (action
+  (run dream_eml %{deps} --workspace %{workspace_root})))

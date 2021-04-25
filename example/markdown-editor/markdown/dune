@@ -1,0 +1,5 @@
+(library
+ (name markdown)
+ (libraries irmin-socket yojson)
+ (preprocess
+  (pps ppx_yojson_conv)))

@@ -1,0 +1,11 @@
+(executable
+ (name index)
+ (modes js)
+ (libraries
+  js_of_ocaml
+  omd
+  markdown
+  irmin-socket.brr
+  digestif.ocaml
+  brr
+  mithril))
